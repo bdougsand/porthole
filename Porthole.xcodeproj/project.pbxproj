@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3A8D6FA23FDDE8B004C0484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D6F923FDDE8B004C0484 /* AppDelegate.swift */; };
+		D3A8D6FC23FDDE8B004C0484 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D6FB23FDDE8B004C0484 /* ContentView.swift */; };
+		D3A8D6FE23FDDE91004C0484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A8D6FD23FDDE91004C0484 /* Assets.xcassets */; };
+		D3A8D70123FDDE91004C0484 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3A8D70023FDDE91004C0484 /* Preview Assets.xcassets */; };
+		D3A8D70423FDDE91004C0484 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A8D70223FDDE91004C0484 /* Main.storyboard */; };
+		D3A8D71023FDDE91004C0484 /* PortholeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D70F23FDDE91004C0484 /* PortholeTests.swift */; };
+		D3A8D71B23FDDE91004C0484 /* PortholeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A8D71A23FDDE91004C0484 /* PortholeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3A8D70C23FDDE91004C0484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A8D6EE23FDDE8B004C0484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A8D6F523FDDE8B004C0484;
+			remoteInfo = Porthole;
+		};
+		D3A8D71723FDDE91004C0484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3A8D6EE23FDDE8B004C0484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3A8D6F523FDDE8B004C0484;
+			remoteInfo = Porthole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3A8D6F623FDDE8B004C0484 /* Porthole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porthole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A8D6F923FDDE8B004C0484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3A8D6FB23FDDE8B004C0484 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3A8D6FD23FDDE91004C0484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3A8D70023FDDE91004C0484 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3A8D70323FDDE91004C0484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3A8D70523FDDE91004C0484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A8D70623FDDE91004C0484 /* Porthole.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Porthole.entitlements; sourceTree = "<group>"; };
+		D3A8D70B23FDDE91004C0484 /* PortholeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortholeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A8D70F23FDDE91004C0484 /* PortholeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortholeTests.swift; sourceTree = "<group>"; };
+		D3A8D71123FDDE91004C0484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3A8D71623FDDE91004C0484 /* PortholeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortholeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A8D71A23FDDE91004C0484 /* PortholeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortholeUITests.swift; sourceTree = "<group>"; };
+		D3A8D71C23FDDE91004C0484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3A8D6F323FDDE8B004C0484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A8D70823FDDE91004C0484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A8D71323FDDE91004C0484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3A8D6ED23FDDE8B004C0484 = {
+			isa = PBXGroup;
+			children = (
+				D3A8D6F823FDDE8B004C0484 /* Porthole */,
+				D3A8D70E23FDDE91004C0484 /* PortholeTests */,
+				D3A8D71923FDDE91004C0484 /* PortholeUITests */,
+				D3A8D6F723FDDE8B004C0484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3A8D6F723FDDE8B004C0484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8D6F623FDDE8B004C0484 /* Porthole.app */,
+				D3A8D70B23FDDE91004C0484 /* PortholeTests.xctest */,
+				D3A8D71623FDDE91004C0484 /* PortholeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3A8D6F823FDDE8B004C0484 /* Porthole */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8D6F923FDDE8B004C0484 /* AppDelegate.swift */,
+				D3A8D6FB23FDDE8B004C0484 /* ContentView.swift */,
+				D3A8D6FD23FDDE91004C0484 /* Assets.xcassets */,
+				D3A8D70223FDDE91004C0484 /* Main.storyboard */,
+				D3A8D70523FDDE91004C0484 /* Info.plist */,
+				D3A8D70623FDDE91004C0484 /* Porthole.entitlements */,
+				D3A8D6FF23FDDE91004C0484 /* Preview Content */,
+			);
+			path = Porthole;
+			sourceTree = "<group>";
+		};
+		D3A8D6FF23FDDE91004C0484 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8D70023FDDE91004C0484 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3A8D70E23FDDE91004C0484 /* PortholeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8D70F23FDDE91004C0484 /* PortholeTests.swift */,
+				D3A8D71123FDDE91004C0484 /* Info.plist */,
+			);
+			path = PortholeTests;
+			sourceTree = "<group>";
+		};
+		D3A8D71923FDDE91004C0484 /* PortholeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3A8D71A23FDDE91004C0484 /* PortholeUITests.swift */,
+				D3A8D71C23FDDE91004C0484 /* Info.plist */,
+			);
+			path = PortholeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3A8D6F523FDDE8B004C0484 /* Porthole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A8D71F23FDDE91004C0484 /* Build configuration list for PBXNativeTarget "Porthole" */;
+			buildPhases = (
+				D3A8D6F223FDDE8B004C0484 /* Sources */,
+				D3A8D6F323FDDE8B004C0484 /* Frameworks */,
+				D3A8D6F423FDDE8B004C0484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porthole;
+			productName = Porthole;
+			productReference = D3A8D6F623FDDE8B004C0484 /* Porthole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3A8D70A23FDDE91004C0484 /* PortholeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A8D72223FDDE91004C0484 /* Build configuration list for PBXNativeTarget "PortholeTests" */;
+			buildPhases = (
+				D3A8D70723FDDE91004C0484 /* Sources */,
+				D3A8D70823FDDE91004C0484 /* Frameworks */,
+				D3A8D70923FDDE91004C0484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3A8D70D23FDDE91004C0484 /* PBXTargetDependency */,
+			);
+			name = PortholeTests;
+			productName = PortholeTests;
+			productReference = D3A8D70B23FDDE91004C0484 /* PortholeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3A8D71523FDDE91004C0484 /* PortholeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3A8D72523FDDE91004C0484 /* Build configuration list for PBXNativeTarget "PortholeUITests" */;
+			buildPhases = (
+				D3A8D71223FDDE91004C0484 /* Sources */,
+				D3A8D71323FDDE91004C0484 /* Frameworks */,
+				D3A8D71423FDDE91004C0484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3A8D71823FDDE91004C0484 /* PBXTargetDependency */,
+			);
+			name = PortholeUITests;
+			productName = PortholeUITests;
+			productReference = D3A8D71623FDDE91004C0484 /* PortholeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3A8D6EE23FDDE8B004C0484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Brian Sanders";
+				TargetAttributes = {
+					D3A8D6F523FDDE8B004C0484 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D3A8D70A23FDDE91004C0484 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D3A8D6F523FDDE8B004C0484;
+					};
+					D3A8D71523FDDE91004C0484 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D3A8D6F523FDDE8B004C0484;
+					};
+				};
+			};
+			buildConfigurationList = D3A8D6F123FDDE8B004C0484 /* Build configuration list for PBXProject "Porthole" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3A8D6ED23FDDE8B004C0484;
+			productRefGroup = D3A8D6F723FDDE8B004C0484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3A8D6F523FDDE8B004C0484 /* Porthole */,
+				D3A8D70A23FDDE91004C0484 /* PortholeTests */,
+				D3A8D71523FDDE91004C0484 /* PortholeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3A8D6F423FDDE8B004C0484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A8D70423FDDE91004C0484 /* Main.storyboard in Resources */,
+				D3A8D70123FDDE91004C0484 /* Preview Assets.xcassets in Resources */,
+				D3A8D6FE23FDDE91004C0484 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A8D70923FDDE91004C0484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A8D71423FDDE91004C0484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3A8D6F223FDDE8B004C0484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A8D6FC23FDDE8B004C0484 /* ContentView.swift in Sources */,
+				D3A8D6FA23FDDE8B004C0484 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A8D70723FDDE91004C0484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A8D71023FDDE91004C0484 /* PortholeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3A8D71223FDDE91004C0484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A8D71B23FDDE91004C0484 /* PortholeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3A8D70D23FDDE91004C0484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3A8D6F523FDDE8B004C0484 /* Porthole */;
+			targetProxy = D3A8D70C23FDDE91004C0484 /* PBXContainerItemProxy */;
+		};
+		D3A8D71823FDDE91004C0484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3A8D6F523FDDE8B004C0484 /* Porthole */;
+			targetProxy = D3A8D71723FDDE91004C0484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3A8D70223FDDE91004C0484 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3A8D70323FDDE91004C0484 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3A8D71D23FDDE91004C0484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3A8D71E23FDDE91004C0484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D3A8D72023FDDE91004C0484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Porthole/Porthole.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Porthole/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HH2K3H55V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Porthole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.apptic.Porthole;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3A8D72123FDDE91004C0484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Porthole/Porthole.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Porthole/Preview Content\"";
+				DEVELOPMENT_TEAM = 5HH2K3H55V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Porthole/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.apptic.Porthole;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D3A8D72323FDDE91004C0484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5HH2K3H55V;
+				INFOPLIST_FILE = PortholeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.apptic.PortholeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porthole.app/Contents/MacOS/Porthole";
+			};
+			name = Debug;
+		};
+		D3A8D72423FDDE91004C0484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5HH2K3H55V;
+				INFOPLIST_FILE = PortholeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.apptic.PortholeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porthole.app/Contents/MacOS/Porthole";
+			};
+			name = Release;
+		};
+		D3A8D72623FDDE91004C0484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5HH2K3H55V;
+				INFOPLIST_FILE = PortholeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.apptic.PortholeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Porthole;
+			};
+			name = Debug;
+		};
+		D3A8D72723FDDE91004C0484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5HH2K3H55V;
+				INFOPLIST_FILE = PortholeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.apptic.PortholeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Porthole;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3A8D6F123FDDE8B004C0484 /* Build configuration list for PBXProject "Porthole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A8D71D23FDDE91004C0484 /* Debug */,
+				D3A8D71E23FDDE91004C0484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A8D71F23FDDE91004C0484 /* Build configuration list for PBXNativeTarget "Porthole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A8D72023FDDE91004C0484 /* Debug */,
+				D3A8D72123FDDE91004C0484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A8D72223FDDE91004C0484 /* Build configuration list for PBXNativeTarget "PortholeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A8D72323FDDE91004C0484 /* Debug */,
+				D3A8D72423FDDE91004C0484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3A8D72523FDDE91004C0484 /* Build configuration list for PBXNativeTarget "PortholeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3A8D72623FDDE91004C0484 /* Debug */,
+				D3A8D72723FDDE91004C0484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3A8D6EE23FDDE8B004C0484 /* Project object */;
+}
